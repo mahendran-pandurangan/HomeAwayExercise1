@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StoreDemo-TestSuite" parallel="classes" thread-count="2">
+	<test name="AllTests" preserve-order="false">
+		<classes>
+			<!-- SubmitOrderApp -->
+			<class name="com.homeaway.test.SubmitOrderApp" />
+
+			<!-- UpdateMyAccount -->
+			<class name="com.homeaway.test.UpdateMyAccount" />
+
+			<!-- ValidateRemoteItem -->
+			<class name="com.homeaway.test.ValidateRemoveItem" />
+		</classes>
+	</test>
+</suite>
